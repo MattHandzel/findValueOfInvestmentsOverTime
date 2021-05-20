@@ -13,7 +13,7 @@ def findAndGraphInvestments(worth, rate, time,additionalMoneyPerYear):
     yAxisTemp.append(worth)
   return xAxisTemp,yAxisTemp
 
-if name=="__main__":
+if __name__ == "__main__":
   investmentAmt = int(input('How many investments do you want to compare?\n'))
   additionalMoneyPerYear = float(input('How much money do you plan to add to your investments per year?\n'))
 
